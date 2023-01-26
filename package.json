@@ -1,6 +1,6 @@
 {
   "name": "washogi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "読みやすさと使いやすさを意識した、将棋の局面管理・バリデーションのためのライブラリ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,6 +9,10 @@
     "prepublishOnly": "npm run build",
     "build": "tsc"
   },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/yagijin/washogi.git"
