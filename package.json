@@ -1,0 +1,29 @@
+{
+  "name": "washogi",
+  "version": "0.0.1",
+  "description": "読みやすさと使いやすさを意識した、将棋の局面管理・バリデーションのためのライブラリ",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yagijin/washogi.git"
+  },
+  "keywords": [
+    "shogi",
+    "boardgame"
+  ],
+  "author": "yagijin",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/yagijin/washogi/issues"
+  },
+  "homepage": "https://github.com/yagijin/washogi#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
